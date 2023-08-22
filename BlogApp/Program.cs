@@ -8,7 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //Login için ekledik
-builder.Services.AddSession();
 
 //Projede aksi belirtilmedikçe her sayfa authorizasyon istesin -- [AllowAnonymous] kodunu controllerda belirtirsen bu geçersiz olur
 builder.Services.AddMvc(config =>
@@ -47,7 +46,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 //Login için ekledik
-app.UseSession();
+app.UseAuthentication();
 
 app.UseRouting();
 

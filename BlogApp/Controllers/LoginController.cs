@@ -1,5 +1,7 @@
+using System.Security.Claims;
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +19,7 @@ namespace BlogApp.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index(Author author)
+        public async Task<IActionResult> Index(Author author)
         {
             Context c = new Context();
             var data = c.Authors.FirstOrDefault(
@@ -28,15 +30,22 @@ namespace BlogApp.Controllers
 
             if (data != null)
             {
-                HttpContext.Session.SetString("username", author.AuthorMail);
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name,author.AuthorMail)
+                };
+
+                var userIdentity = new ClaimsIdentity(claims, "a");
+                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
+
+                await HttpContext.SignInAsync(principal);
+
                 return RedirectToAction("Index", "Author");
             }
             else
             {
                 return View();
             }
-
-
         }
 
     }
