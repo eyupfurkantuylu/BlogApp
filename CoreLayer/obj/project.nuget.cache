@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KzvOC9dT7aqYE4jyDaxrMmwxVt7Npg6nl59gA6OD+G4Ednv5pbmlKqrTt+5uqWUnX11v8KZqLbAtHyL3VKSTPw==",
+  "dgSpecHash": "u91IqPRFKYnSZBYjuwI6CmXL9pN4qeZKzamkg7hbMHph4vM2Cm9BbcMwARI7blkCGmEL4q9mmqE0sG/fH3HDBA==",
   "success": true,
   "projectFilePath": "/Users/eyuptuylu/Documents/GitHub/BlogApp/CoreLayer/CoreLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/eyuptuylu/.nuget/packages/microsoft.netcore.app.ref/7.0.8/microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
+    "/Users/eyuptuylu/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.8/microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

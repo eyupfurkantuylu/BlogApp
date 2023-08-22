@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ul+eWwHwbf8UJZIlrigIHC8MQf23r3g1MdyTxMqakMjzDCuypBlsBsWptzSBHt4yHNhZ8espyV3Vx0XYXO8Dbg==",
+  "dgSpecHash": "XRKQnYkKPBsZueIr+3uXS9u0oZzpzYGQ8fyIv/1YxJICnGVNx/P5zlAn+7Jf4qz5x1pGWAyykBw5xemgiikxRw==",
   "success": true,
   "projectFilePath": "/Users/eyuptuylu/Documents/GitHub/BlogApp/EntityLayer/EntityLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/eyuptuylu/.nuget/packages/microsoft.netcore.app.ref/7.0.8/microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
+    "/Users/eyuptuylu/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.8/microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

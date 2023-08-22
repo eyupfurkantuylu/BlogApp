@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Author/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL1Rlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Blog/BlogDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQmxvZy9CbG9nRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -146,6 +150,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Shared/Partials/SubscribeMail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhcnRpYWxzL1N1YnNjcmliZU1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Shared/_AuthorLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BdXRob3JMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Shared/_UILayout.cshtml]

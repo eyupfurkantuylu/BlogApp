@@ -24329,6 +24329,16 @@
       "FilePath": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Shared/Components/BlogLast3Post/Default.cshtml",
       "TargetPath": "Views\\Shared\\Components\\BlogLast3Post\\Default.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Shared/_AuthorLayout.cshtml",
+      "TargetPath": "Views\\Shared\\_AuthorLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Author/Test.cshtml",
+      "TargetPath": "Views\\Author\\Test.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
