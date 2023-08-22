@@ -1,0 +1,15 @@
+@using EntityLayer.Concrete
+@model List<Blog>
+
+
+<br>
+
+<h5 class="footer-link--title">Son 3 Yazı</h5>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <a class="footer-link" href="/Blog/BlogDetails/@item.BlogID">@item.BlogTitle</a>
+        </li>
+    }
+</ul>

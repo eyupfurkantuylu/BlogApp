@@ -19231,6 +19231,25 @@
         }
       },
       {
+        "HashCode": -1471317696,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__BlogLast3PostViewComponentTagHelper",
+        "AssemblyName": "BlogApp",
+        "DisplayName": "BlogLast3PostViewComponentTagHelper",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:blog-last3-post",
+            "CaseSensitive": false
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "__Generated__BlogLast3PostViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "BlogLast3Post",
+          "Runtime.Name": "ITagHelper"
+        }
+      },
+      {
         "HashCode": 270127396,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__CategoryListViewComponentTagHelper",
@@ -24304,6 +24323,11 @@
     {
       "FilePath": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Author/AuthorMail.cshtml",
       "TargetPath": "Views\\Author\\AuthorMail.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Shared/Components/BlogLast3Post/Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\BlogLast3Post\\Default.cshtml",
       "FileKind": "mvc"
     }
   ]

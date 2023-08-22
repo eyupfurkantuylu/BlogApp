@@ -1,11 +1,13 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace BlogApp.Controllers
 {
+    [AllowAnonymous]
     public class BlogController : Controller
     {
 
@@ -25,6 +27,10 @@ namespace BlogApp.Controllers
             var values = bm.GetBlogById(id);
             return View(values);
         }
+
+
+
+
     }
 }
 
