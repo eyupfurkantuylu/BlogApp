@@ -5,6 +5,1282 @@
       "PackagePath": "staticwebassets/BlogApp.bundle.scp.css"
     },
     {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/404_error.html",
+      "PackagePath": "staticwebassets/HTML/404_error.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/about_us.html",
+      "PackagePath": "staticwebassets/HTML/about_us.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/animate.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/animate.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/aos.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/aos.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/custom_bootstrap.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/custom_bootstrap.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/elegant.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/elegant.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/fontawesome.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/fontawesome.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/jquery-ui.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/jquery-ui.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/jquery-ui.min.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/jquery-ui.min.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/plyr.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/plyr.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/slick.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/slick.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/style.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/style.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/css/themify-icons.css",
+      "PackagePath": "staticwebassets/HTML/assets/css/themify-icons.css"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/ElegantIcons.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/ElegantIcons.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/ElegantIcons.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/ElegantIcons.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/ElegantIcons.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/ElegantIcons.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/ElegantIcons.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/ElegantIcons.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bold.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bold.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bold.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bold.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bold.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bold.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bold.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bold.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bold.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bold.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bolditalic.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bolditalic.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bolditalic.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bolditalic.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bolditalic.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bolditalic.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bolditalic.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bolditalic.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bolditalic.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bolditalic.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-book.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-book.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-book.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-book.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-book.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-book.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-book.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-book.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-book.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-book.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bookitalic.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bookitalic.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bookitalic.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bookitalic.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bookitalic.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bookitalic.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bookitalic.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bookitalic.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-bookitalic.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-bookitalic.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabold.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabold.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabold.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabold.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabold.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabold.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabold.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabold.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabold.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabold.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabolditalic.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabolditalic.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabolditalic.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabolditalic.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabolditalic.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabolditalic.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabolditalic.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabolditalic.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-extrabolditalic.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-extrabolditalic.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-italic.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-italic.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-italic.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-italic.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-italic.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-italic.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-italic.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-italic.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-italic.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-italic.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-light.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-light.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-light.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-light.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-light.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-light.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-light.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-light.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-light.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-light.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-lightitalic.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-lightitalic.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-lightitalic.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-lightitalic.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-lightitalic.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-lightitalic.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-lightitalic.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-lightitalic.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-lightitalic.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-lightitalic.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-medium.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-medium.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-medium.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-medium.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-medium.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-medium.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-medium.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-medium.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-medium.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-medium.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-mediumitalic.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-mediumitalic.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-mediumitalic.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-mediumitalic.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-mediumitalic.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-mediumitalic.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-mediumitalic.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-mediumitalic.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-mediumitalic.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-mediumitalic.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-regular.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-regular.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-regular.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-regular.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-regular.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-regular.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-regular.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-regular.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-regular.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-regular.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibold.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibold.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibold.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibold.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibold.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibold.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibold.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibold.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibold.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibold.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibolditalic.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibolditalic.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibolditalic.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibolditalic.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibolditalic.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibolditalic.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibolditalic.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibolditalic.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/cerebrisans-semibolditalic.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/cerebrisans-semibolditalic.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-brands-400.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-brands-400.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-brands-400.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-brands-400.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-brands-400.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-brands-400.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-brands-400.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-brands-400.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-brands-400.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-brands-400.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-regular-400.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-regular-400.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-regular-400.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-regular-400.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-regular-400.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-regular-400.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-regular-400.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-regular-400.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-regular-400.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-solid-900.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-solid-900.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-solid-900.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-solid-900.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-solid-900.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-solid-900.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-solid-900.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-solid-900.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/fa-solid-900.woff2",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/fa-solid-900.woff2"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/themify.eot",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/themify.eot"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/themify.svg",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/themify.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/themify.ttf",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/themify.ttf"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/fonts/themify.woff",
+      "PackagePath": "staticwebassets/HTML/assets/fonts/themify.woff"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/404.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/404.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/about_us/big-img.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/about_us/big-img.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/about_us/team-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/about_us/team-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/about_us/team-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/about_us/team-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/about_us/team-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/about_us/team-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/about_us/team-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/about_us/team-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/audio+video/audio.mp3",
+      "PackagePath": "staticwebassets/HTML/assets/images/audio+video/audio.mp3"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/audio+video/video.mp4",
+      "PackagePath": "staticwebassets/HTML/assets/images/audio+video/video.mp4"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/avatar/avatar-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/avatar/avatar-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/avatar/avatar-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/avatar/avatar-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/avatar/avatar-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/avatar/avatar-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/avatar/avatar-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/avatar/avatar-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/avatar/avatar-5.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/avatar/avatar-5.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/avatar/avatar-6.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/avatar/avatar-6.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_agency/call-to-action.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_agency/call-to-action.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_agency/envelope.svg",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_agency/envelope.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_agency/news-bundle-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_agency/news-bundle-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_agency/news-small-bundle-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_agency/news-small-bundle-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_agency/news-small-bundle-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_agency/news-small-bundle-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_agency/news-small-bundle-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_agency/news-small-bundle-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_creative/banner.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_creative/banner.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_creative/lastest-post-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_creative/lastest-post-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_creative/lastest-post-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_creative/lastest-post-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_creative/lastest-post-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_creative/lastest-post-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_creative/lastest-post-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_creative/lastest-post-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/lastest-post-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/lastest-post-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/lastest-post-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/lastest-post-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/lastest-post-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/lastest-post-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/lastest-post-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/lastest-post-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/mini-news-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/mini-news-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/mini-news-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/mini-news-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/mini-news-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/mini-news-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/mini-news-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/mini-news-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/mini-news-5.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/mini-news-5.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/recent-post-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/recent-post-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/recent-post-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/recent-post-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/recent-post-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/recent-post-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/recent-post-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/recent-post-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/sidebar-banner.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/sidebar-banner.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/slide-news-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/slide-news-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/slide-news-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/slide-news-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/slide-news-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/slide-news-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_crypto/video.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_crypto/video.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_detail/blog-bundle-img.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_detail/blog-bundle-img.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_detail/blog-cover-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_detail/blog-cover-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_detail/blog-detail-banner-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_detail/blog-detail-banner-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_detail/blog-detail-banner-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_detail/blog-detail-banner-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_detail/icon_search2.svg",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_detail/icon_search2.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_detail/post-author-avatar.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_detail/post-author-avatar.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_detail/post-banner.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_detail/post-banner.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_detail/post-mini-img-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_detail/post-mini-img-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_detail/post-mini-img-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_detail/post-mini-img-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/10.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/10.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/5.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/5.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/6.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/6.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/7.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/7.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/8.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/8.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_masonry/9.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_masonry/9.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/10.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/10.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/11.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/11.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/12.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/12.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/13.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/13.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/14.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/14.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/5.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/5.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/6.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/6.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/7.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/7.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/8.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/8.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_metro/9.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_metro/9.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/hot-mini-post-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/hot-mini-post-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/hot-mini-post-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/hot-mini-post-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/hot-mini-post-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/hot-mini-post-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/hot-new-big.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/hot-new-big.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/lastest-news-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/lastest-news-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/lastest-news-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/lastest-news-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/news-bundle-big.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/news-bundle-big.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/news-bundle-mini-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/news-bundle-mini-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/news-bundle-mini-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/news-bundle-mini-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/news-bundle-mini-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/news-bundle-mini-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/recent-view-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/recent-view-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/recent-view-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/recent-view-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/recent-view-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/recent-view-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/recent-view-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/recent-view-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/recent-view-5.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/recent-view-5.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/recent-view-6.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/recent-view-6.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/recent-view-7.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/recent-view-7.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/recent-view-8.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/recent-view-8.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/recent-view-9.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/recent-view-9.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/video-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/video-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/video-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/video-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/video-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/video-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_news/video-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_news/video-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_story/big-post.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_story/big-post.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_story/mini-post-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_story/mini-post-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_story/mini-post-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_story/mini-post-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_story/mini-post-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_story/mini-post-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/blog_story/mini-post-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/blog_story/mini-post-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/coming-soon.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/coming-soon.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage1/post-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage1/post-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage1/post-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage1/post-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage1/post-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage1/post-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage1/post-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage1/post-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage1/post-5.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage1/post-5.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage1/post-6.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage1/post-6.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage1/post-7.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage1/post-7.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage2/post-1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage2/post-1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage2/post-2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage2/post-2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage2/post-3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage2/post-3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage2/post-4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage2/post-4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/homepage2/post-5.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/homepage2/post-5.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/instagram/1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/instagram/1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/instagram/2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/instagram/2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/instagram/3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/instagram/3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/instagram/4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/instagram/4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/instagram/5.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/instagram/5.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/logo.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/logo.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/1.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/1.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/10.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/10.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/11.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/11.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/12.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/12.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/2.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/2.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/3.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/3.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/4.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/4.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/5.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/5.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/6.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/6.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/7.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/7.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/8.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/8.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/products/9.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/products/9.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/shop/arrow_carrot-down.svg",
+      "PackagePath": "staticwebassets/HTML/assets/images/shop/arrow_carrot-down.svg"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/images/shortcut_logo.png",
+      "PackagePath": "staticwebassets/HTML/assets/images/shortcut_logo.png"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/aos.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/aos.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/imagesloaded.pkgd.min.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/imagesloaded.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/jquery-3.4.0.min.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/jquery-3.4.0.min.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/jquery-ui.min.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/jquery-ui.min.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/jquery.countdown.min.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/jquery.countdown.min.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/main.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/main.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/masonry.pkgd.min.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/numscroller-1.0.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/numscroller-1.0.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/plyr.min.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/plyr.min.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/js/slick.min.js",
+      "PackagePath": "staticwebassets/HTML/assets/js/slick.min.js"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/base/_breakpoint.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/base/_breakpoint.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/base/_color.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/base/_color.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/base/_mixin.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/base/_mixin.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/base/_typography.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/base/_typography.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_box-center.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_box-center.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_button.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_button.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_footer.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_footer.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_header.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_header.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_hover.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_hover.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_input-form.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_input-form.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_instagram-post.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_instagram-post.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_post-audio.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_post-audio.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_post-classic.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_post-classic.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_post-mini.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_post-mini.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_post-quote.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_post-quote.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_post-slide.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_post-slide.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_post-video.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_post-video.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_posts.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_posts.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_product.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_product.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_scroll-up.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_scroll-up.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_search-full.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_search-full.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_shop-sidebar.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_shop-sidebar.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_shop.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_shop.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/component/_typography.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/component/_typography.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/custom_bootstrap.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/custom_bootstrap.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_about-us.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_about-us.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-2-column.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-2-column.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-agency.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-agency.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-creative.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-creative.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-crypto.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-crypto.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-detail.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-detail.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-index.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-index.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-masonry.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-masonry.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-metro.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-metro.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-news.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-news.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_blog-story.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_blog-story.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_coming-soon.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_coming-soon.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_contact.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_contact.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_error-404.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_error-404.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_shop-4col.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_shop-4col.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_shop-5col.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_shop-5col.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_shop-cart.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_shop-cart.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/layout/_shop-checkout.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/layout/_shop-checkout.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/assets/sass/style.scss",
+      "PackagePath": "staticwebassets/HTML/assets/sass/style.scss"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog2col.html",
+      "PackagePath": "staticwebassets/HTML/blog2col.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_2col.html",
+      "PackagePath": "staticwebassets/HTML/blog_2col.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_agency.html",
+      "PackagePath": "staticwebassets/HTML/blog_agency.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_creative.html",
+      "PackagePath": "staticwebassets/HTML/blog_creative.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_crypto.html",
+      "PackagePath": "staticwebassets/HTML/blog_crypto.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_detail.html",
+      "PackagePath": "staticwebassets/HTML/blog_detail.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_detail_02.html",
+      "PackagePath": "staticwebassets/HTML/blog_detail_02.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_detail_sidebar.html",
+      "PackagePath": "staticwebassets/HTML/blog_detail_sidebar.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_masonry.html",
+      "PackagePath": "staticwebassets/HTML/blog_masonry.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_metro.html",
+      "PackagePath": "staticwebassets/HTML/blog_metro.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_metro_full.html",
+      "PackagePath": "staticwebassets/HTML/blog_metro_full.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_news.html",
+      "PackagePath": "staticwebassets/HTML/blog_news.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/blog_story.html",
+      "PackagePath": "staticwebassets/HTML/blog_story.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/coming_soon.html",
+      "PackagePath": "staticwebassets/HTML/coming_soon.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/contact.html",
+      "PackagePath": "staticwebassets/HTML/contact.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/index.html",
+      "PackagePath": "staticwebassets/HTML/index.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/shop_4col.html",
+      "PackagePath": "staticwebassets/HTML/shop_4col.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/shop_5col.html",
+      "PackagePath": "staticwebassets/HTML/shop_5col.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/shop_cart.html",
+      "PackagePath": "staticwebassets/HTML/shop_cart.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/shop_checkout.html",
+      "PackagePath": "staticwebassets/HTML/shop_checkout.html"
+    },
+    {
+      "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/HTML/shop_sidebar_3col.html",
+      "PackagePath": "staticwebassets/HTML/shop_sidebar_3col.html"
+    },
+    {
       "Id": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

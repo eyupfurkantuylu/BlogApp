@@ -1,0 +1,244 @@
+@model EntityLayer.Concrete.Author
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+
+}
+<style>
+    .divider-text {
+        position: relative;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .divider-text span {
+        padding: 7px;
+        font-size: 12px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .divider-text:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        top: 55%;
+        left: 0;
+        z-index: 1;
+    }
+
+    .btn-facebook {
+        background-color: #405D9D;
+        color: #fff;
+    }
+
+    .btn-twitter {
+        background-color: #42AEEC;
+        color: #fff;
+    }
+
+    .checkbox-xl .form-check-input {
+        top: 1.2rem;
+        scale: 1.7;
+        margin-right: 0.8rem;
+    }
+
+    .checkbox-xl .form-check-label {
+        padding-top: 19px;
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+
+
+
+<div class="card bg-light">
+    <article class="card-body mx-auto" style="max-width: 800px;">
+        <h4 class="card-title mt-3 text-center">Kayıt Ol</h4>
+        <p class="text-center mb-3">Ücretsiz hesap oluşturarak ayrıcalıklardan faydalanın!</p>
+        <p>
+            <a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   X ile giriş yap</a>
+            <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>  
+                Facebook ile giriş yap</a>
+        </p>
+        <p class="divider-text">
+            <span class="bg-light">Veya</span>
+        </p>
+
+        @using (Html.BeginForm("Index", "Register", FormMethod.Post))
+        {
+            @Html.ValidationMessageFor(m => m.AuthorName, null, new { @class = "text-danger" })
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                </div>
+                @Html.TextBoxFor(m => m.AuthorName, null, new { @class = "form-control", @placeholder = "İsminiz" })
+
+                @* <input name="AuthorName" class="form-control" placeholder="İsminiz" type="text" required> *@
+            </div> <!-- form-group// -->
+
+
+            @Html.ValidationMessageFor(m => m.AuthorMail, null, new { @class = "text-danger" })
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                </div>
+                @Html.TextBoxFor(m => m.AuthorMail, null, new { @class = "form-control", @placeholder = "Email Adresiniz"
+            })
+
+                @* <input name="AuthorMail" class="form-control" placeholder="Email adresiniz" type="email" required> *@
+            </div>
+
+
+            <!-- form-group// -->
+            @* <div class="form-group input-group">
+        <div class="input-group-prepend">
+        <span class="input-group-text"> <i class="fa fa-city"></i> </span>
+        </div>
+
+        <select class="custom-select">
+        <option value="0">ŞEHİR SEÇİN</option>
+        <option value="1">Adana</option>
+        <option value="2">Adıyaman</option>
+        <option value="3">Afyonkarahisar</option>
+        <option value="4">Ağrı</option>
+        <option value="5">Amasya</option>
+        <option value="6">Ankara</option>
+        <option value="7">Antalya</option>
+        <option value="8">Artvin</option>
+        <option value="9">Aydın</option>
+        <option value="10">Balıkesir</option>
+        <option value="11">Bilecik</option>
+        <option value="12">Bingöl</option>
+        <option value="13">Bitlis</option>
+        <option value="14">Bolu</option>
+        <option value="15">Burdur</option>
+        <option value="16">Bursa</option>
+        <option value="17">Çanakkale</option>
+        <option value="18">Çankırı</option>
+        <option value="19">Çorum</option>
+        <option value="20">Denizli</option>
+        <option value="21">Diyarbakır</option>
+        <option value="22">Edirne</option>
+        <option value="23">Elazığ</option>
+        <option value="24">Erzincan</option>
+        <option value="25">Erzurum</option>
+        <option value="26">Eskişehir</option>
+        <option value="27">Gaziantep</option>
+        <option value="28">Giresun</option>
+        <option value="29">Gümüşhane</option>
+        <option value="30">Hakkâri</option>
+        <option value="31">Hatay</option>
+        <option value="32">Isparta</option>
+        <option value="33">Mersin</option>
+        <option value="34">İstanbul</option>
+        <option value="35">İzmir</option>
+        <option value="36">Kars</option>
+        <option value="37">Kastamonu</option>
+        <option value="38">Kayseri</option>
+        <option value="39">Kırklareli</option>
+        <option value="40">Kırşehir</option>
+        <option value="41">Kocaeli</option>
+        <option value="42">Konya</option>
+        <option value="43">Kütahya</option>
+        <option value="44">Malatya</option>
+        <option value="45">Manisa</option>
+        <option value="46">Kahramanmaraş</option>
+        <option value="47">Mardin</option>
+        <option value="48">Muğla</option>
+        <option value="49">Muş</option>
+        <option value="50">Nevşehir</option>
+        <option value="51">Niğde</option>
+        <option value="52">Ordu</option>
+        <option value="53">Rize</option>
+        <option value="54">Sakarya</option>
+        <option value="55">Samsun</option>
+        <option value="56">Siirt</option>
+        <option value="57">Sinop</option>
+        <option value="58">Sivas</option>
+        <option value="59">Tekirdağ</option>
+        <option value="60">Tokat</option>
+        <option value="61">Trabzon</option>
+        <option value="62">Tunceli</option>
+        <option value="63">Şanlıurfa</option>
+        <option value="64">Uşak</option>
+        <option value="65">Van</option>
+        <option value="66">Yozgat</option>
+        <option value="67">Zonguldak</option>
+        <option value="68">Aksaray</option>
+        <option value="69">Bayburt</option>
+        <option value="70">Karaman</option>
+        <option value="71">Kırıkkale</option>
+        <option value="72">Batman</option>
+        <option value="73">Şırnak</option>
+        <option value="74">Bartın</option>
+        <option value="75">Ardahan</option>
+        <option value="76">Iğdır</option>
+        <option value="77">Yalova</option>
+        <option value="78">Karabük</option>
+        <option value="79">Kilis</option>
+        <option value="80">Osmaniye</option>
+        <option value="81">Düzce</option>
+        </select>
+        </div> <!-- form-group// --> *@
+            @Html.ValidationMessageFor(m => m.AuthorPassword,null, new { @class = "text-danger" })
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                @Html.TextBoxFor(m => m.AuthorPassword, null, new { @class = "form-control", @placeholder = "Şifreniz",
+            @type="password" })
+
+                @* <input class="form-control" name="AuthorPassword" required placeholder="Şifreniz" type="password"> *@
+            </div>
+
+
+
+            <!-- form-group// -->
+            @Html.ValidationMessageFor(m=>m.AuthorImage,null, new { @class = "text-danger" })
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-image"></i> </span>
+                </div>
+                @Html.TextBoxFor(m => m.AuthorImage, null, new { @class = "form-control", @placeholder = "Görsel yolu",
+            @type="text" })
+
+                @* <input name="AuthorImage" class="form-control" placeholder="Görsel Dosya Yolu" type="text"> *@
+            </div>
+
+            <!-- form-group// -->
+
+            <div class="form-check m-4 checkbox-xl">
+                <input class="form-check-input pr-3" type="checkbox" value="" id="flexCheckDefault" required>
+                <label class="form-check-label ml-3 pl-3" for="flexCheckDefault" id="sozlesme">
+                    Üyelik Sözleşmesi şartlarını okudum ve
+                    kabul ediyorum.
+                </label>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block"> Hesap Oluştur </button>
+            </div> <!-- form-group// -->
+            <p class="text-center">Bir hesabınız var mı? <a href="Login">Giriş Yapın</a> </p>
+        }
+
+
+
+    </article>
+</div> <!-- card.// -->
+
+
+
+<script>
+    $('#sozlesme').click(function () {
+        Swal.fire(
+            'Kullanıcı Sözleşmesi',
+            'Sitemizde kayıt olurken kullandığınız mail adresi üzerinden bilgi ve haber e-postları tarafınıza iletilecektir.',
+            'warning'
+        );
+    });
+</script>

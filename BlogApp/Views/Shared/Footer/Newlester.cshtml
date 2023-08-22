@@ -1,0 +1,41 @@
+<h5 class="footer-link--title">E-Mail listemize kayıt olun. </h5>
+
+<div class="email-form">
+    <input class="input-form" id="footerEmailText" name="Mail" type="text" placeholder="Enter Your Mail">
+    <button id="footerNewsletter"> <i class="fas fa-paper-plane"></i></button>
+</div>
+<div class="read-policy">
+    <input type="checkbox" id="read">
+    <label for="read">Gizlilik Politikasını okudum ve kabul ediyorum.</label>
+</div>
+
+<div id="footerNewsLetterResult">
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#footerNewsletter").click(function () {
+            var email = $("#footerEmailText").val(); // Email'i alın
+            console.log(email);
+            $.ajax({
+                type: "POST", // POST isteği
+                url: "/NewsLetter/SubscribeMail",
+                data:
+                {
+                    Mail: email
+                }, // Veriyi JSON olarak gönder
+                success: function (result) {
+                    // İstek başarılı ise
+                    $("#footerNewsLetterResult").removeClass("alert-danger").addClass("alert-success").html("E-mail aboneliğiniz başarılı bir şekilde tamamlandı.");
+                },
+                error: function () {
+                    // İstek başarısız olursa
+                    $("#footerNewsLetterResult").removeClass("alert-success").addClass("alert-danger").html("Hata oluştu.");
+                }
+            });
+
+
+        });
+    });
+</script>

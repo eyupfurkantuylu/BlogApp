@@ -1,0 +1,17 @@
+@model IEnumerable<EntityLayer.Concrete.Category>
+
+
+
+
+<div class="blog-sidebar_block sidebar-categories">
+    <h5 class="sidebar-block-title">Kategoriler</h5>
+    <ul>
+        <li>
+            @foreach (var item in Model)
+            {
+                <a class="category-link" href="#">@item.CategoryName</a>
+
+            }
+        </li>
+    </ul>
+</div>

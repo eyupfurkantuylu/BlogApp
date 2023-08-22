@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <meta name="keywords"
+        content="blog, business, clean, clear, cooporate, creative, design web, flat, marketing, minimal, portfolio, shop, shopping, unique">
+    <meta name="author" content="PISEN | Deer Creative Theme">
+    <link rel="stylesheet" href="~/HTML/assets/css/style.css">
+    <link rel="stylesheet" href="~/HTML/assets/css/slick.css">
+    <link rel="stylesheet" href="~/HTML/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="~/HTML/assets/css/custom_bootstrap.css">
+    <link rel="stylesheet" href="~/HTML/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="~/HTML/assets/css/elegant.css">
+    <link rel="stylesheet" href="~/HTML/assets/css/plyr.css">
+    <link rel="stylesheet" href="~/HTML/assets/css/aos.css">
+    <link rel="stylesheet" href="~/HTML/assets/css/animate.css">
+    <link rel="stylesheet" href="~/HTML/assets/css/themify-icons.css">
+    <link rel="shortcut icon" href="~/HTML/assets/images/shortcut_logo.png">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div class="header-wrapper">
+                <div class="container">
+                    <div class="header-menu">
+                        <div class="row no-gutters align-items-center justify-content-center">
+
+                            @await Html.PartialAsync("Header/LogoPartial")
+
+                            @await Html.PartialAsync("Header/MenuPartial")
+
+                            @await Html.PartialAsync("Header/MenuSocialPartial")
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!--End header-->
+
+        @RenderBody()
+
+
+        @await Html.PartialAsync("Footer/HomeInstagramFeedPartial")
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-3 col-lg-4">
+                                @await Html.PartialAsync("Footer/QuickLinkPartial")
+                            </div>
+                            <div class="col-sm-6 col-md-3 col-lg-4">
+                                @await Html.PartialAsync("Footer/InformationPartial")
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                @await Html.PartialAsync("Footer/ContactPartial")
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        @await Html.PartialAsync("Footer/Newlester")
+                        @await Html.PartialAsync("Footer/Copyright")
+                    </div>
+                </div>
+            </div>
+        </footer><!--End footer-->
+        <script src="~/HTML/assets/js/jquery-3.4.0.min.js"></script>
+        <script src="~/HTML/assets/js/jquery-ui.min.js"></script>
+        <script src="~/HTML/assets/js/slick.min.js"></script>
+        <script src="~/HTML/assets/js/plyr.min.js"></script>
+        <script src="~/HTML/assets/js/aos.js"></script>
+        <script src="~/HTML/assets/js/jquery.scrollUp.min.js"></script>
+        <script src="~/HTML/assets/js/masonry.pkgd.min.js"></script>
+        <script src="~/HTML/assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="~/HTML/assets/js/numscroller-1.0.js"></script>
+        <script src="~/HTML/assets/js/jquery.countdown.min.js"></script>
+        <script src="~/HTML/assets/js/main.js"></script>
+    </div>
+</body>
+
+</html>

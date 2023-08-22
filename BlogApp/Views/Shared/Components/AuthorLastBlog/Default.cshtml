@@ -1,0 +1,36 @@
+@using EntityLayer.Concrete
+@model List<Blog>
+
+<div class="blog-sidebar_block sidebar-recent-posts">
+    <h5 class="sidebar-block-title">Yazarın Diğer Yazıları</h5>
+    <div class="posts">
+        <div class="row">
+
+            @if (Model.ToList().Count() > 0)
+            {
+                @foreach (var item in Model)
+                {
+                    <div class="col-12 col-sm-6 col-lg-12">
+                        <div class="post-mini_block"><img src="@item.BlogThumbnailImage" alt="post image">
+                            <div class="post-detail">
+                                <a class="post-title title-small" href="/Blog/BlogDetails/@item.BlogID">@item.BlogTitle </a>
+                                <div class="post-credit">
+                                    <div class="author">
+                                        <h5 class="author-name">@(((DateTime)item.BlogCreateDate).ToString("dd-MMM-yyyy"))</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12 col-sm-6 col-lg-12">
+                    Yazarın yazısı mevcut değil.
+                </div>
+            }
+
+        </div>
+    </div>
+</div>

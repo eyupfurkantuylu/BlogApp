@@ -1,7 +1,35 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Login için ekledik
+builder.Services.AddSession();
+
+//Projede aksi belirtilmedikçe her sayfa authorizasyon istesin -- [AllowAnonymous] kodunu controllerda belirtirsen bu geçersiz olur
+builder.Services.AddMvc(config =>
+{
+    var policy = new AuthorizationPolicyBuilder()
+                    .RequireAuthenticatedUser()
+                    .Build();
+    config.Filters.Add(new AuthorizeFilter(policy));
+});
+
+builder.Services.AddMvc();
+//Authentication varsa cookie'ye ekle. Yoksa Login sayfasına yönlendir
+builder.Services.AddAuthentication(
+    CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(
+        x =>
+        {
+            x.LoginPath = "/Login/Index";
+        }
+    );
+
 
 var app = builder.Build();
 
@@ -13,8 +41,13 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1", "?code={0}");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+//Login için ekledik
+app.UseSession();
 
 app.UseRouting();
 

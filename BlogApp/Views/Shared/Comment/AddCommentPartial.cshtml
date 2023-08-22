@@ -1,0 +1,53 @@
+<div class="post-comment">
+    <h2>Yorum Bırak</h2>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <input class="input-form trans-bg" name="CommentUserName" id="name" type="text" placeholder="İsim" required>
+        </div>
+        <div class="form-group col-md-6">
+            <input class="input-form trans-bg" name="CommentTitle" id="title" type="text" placeholder="Başlık" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <textarea class="textarea-form trans-bg" id="message" name="CommentContent" cols="30" rows="6"
+            placeholder="Yorumunuz"></textarea>
+    </div>
+    <button class="normal-btn" type="button" id="sendButton">Yorumu Gönder</button>
+
+</div>
+
+<div class="alert mt-3" id="commentResult"> </div>
+
+<script>
+    $(document).ready(function () {
+        $("#sendButton").click(function () {
+            var name = $("#name").val(); // Email'i alın
+            var title = $("#title").val();
+            var message = $("#message").val();
+            console.log(name);
+            console.log(title);
+            console.log(message);
+
+            $.ajax({
+                type: "POST", // POST isteği
+                url: "/Comment/AddCommentPartial",
+                data:
+                {
+                    CommentUserName: name,
+                    CommentTitle: title,
+                    CommentContent: message
+                }, // Veriyi JSON olarak gönder
+                success: function (result) {
+                    // İstek başarılı ise
+                    $("#commentResult").removeClass("alert-danger").addClass("alert-success").html("Yorumunuz başarılı bir şekilde alındı.");
+                },
+                error: function () {
+                    // İstek başarısız olursa
+                    $("#commentResult").removeClass("alert-success").addClass("alert-danger").html("Hata oluştu.");
+                }
+            });
+
+
+        });
+    });
+</script>

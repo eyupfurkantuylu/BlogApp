@@ -1,0 +1,121 @@
+@model EntityLayer.Concrete.Author
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+
+}
+
+
+
+<style>
+    .divider-text {
+        position: relative;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .divider-text span {
+        padding: 7px;
+        font-size: 12px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .divider-text:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        top: 55%;
+        left: 0;
+        z-index: 1;
+    }
+
+    .btn-facebook {
+        background-color: #405D9D;
+        color: #fff;
+    }
+
+    .btn-twitter {
+        background-color: #42AEEC;
+        color: #fff;
+    }
+
+    .checkbox-xl .form-check-input {
+        top: 1.2rem;
+        scale: 1.7;
+        margin-right: 0.8rem;
+    }
+
+    .checkbox-xl .form-check-label {
+        padding-top: 19px;
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+
+
+
+<div class="card bg-light">
+    <article class="card-body mx-auto" style="max-width: 800px;">
+        <h4 class="card-title mt-3 text-center">Giriş Yap</h4>
+        <p class="text-center mb-3">Hesabınız ile kolayca giriş yapabilirsiniz!</p>
+        <p>
+            <a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i> X ile giriş yap</a>
+            <a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i> Facebook ile giriş yap</a>
+        </p>
+        <p class="divider-text">
+            <span class="bg-light">Veya</span>
+        </p>
+
+        @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+        {
+
+            @Html.ValidationMessageFor(m => m.AuthorMail, null, new { @class = "text-danger" })
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                </div>
+                @Html.TextBoxFor(m => m.AuthorMail, null, new { @class = "form-control", @placeholder = "Email Adresiniz",
+            @name = "AuthorMail"
+            })
+            </div>
+
+            @Html.ValidationMessageFor(m => m.AuthorPassword,null, new { @class = "text-danger" })
+            <div class="form-group input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                </div>
+                @Html.TextBoxFor(m => m.AuthorPassword, null, new { @class = "form-control", @placeholder = "Şifreniz",
+            @name = "AuthorPassword",
+            @type="password" })
+
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block"> Giriş Yap </button>
+            </div> <!-- form-group// -->
+            <p class="text-center">Bir hesabınız yok mu? <a href="Register">Kayıt olun!</a> </p>
+        }
+
+
+
+    </article>
+</div> <!-- card.// -->
+
+
+
+<script>
+    $('#sozlesme').click(function () {
+        Swal.fire(
+            'Kullanıcı Sözleşmesi',
+            'Sitemizde kayıt olurken kullandığınız mail adresi üzerinden bilgi ve haber e-postları tarafınıza iletilecektir.',
+            'warning'
+        );
+    });
+</script>

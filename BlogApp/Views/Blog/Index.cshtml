@@ -1,0 +1,44 @@
+@using EntityLayer.Concrete
+@model List<Blog>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+}
+
+<section class="posts blog-2col">
+    <div class="container">
+        <div class="row justify-content-center">
+            @foreach (var item in Model)
+            {
+                <div class="col-12 col-md-6">
+                    <div class="post-block post-classic">
+                        <div class="post-img"><img src="@item.BlogThumbnailImage" alt="post image">
+                        </div>
+                        <div class="post-detail">
+                            <a class="post-title regular" href="/Blog/BlogDetails/@item.BlogID">
+                                @item.BlogTitle
+                            </a>
+                            <div class="post-credit">
+                                <div class="author"><a class="author-avatar" href="#"><img
+                                            src="~/HTML/assets/images/avatar/avatar-1.png" alt="auhtor"></a>
+                                    <h5 class="author-name">Lucas Norman</h5>
+                                </div>
+                                <h5 class="upload-day">@(((DateTime)item.BlogCreateDate).ToString("dd-MMM-yyyy"))</h5>
+                                <div class="post-tag"><a href="index.html">@item.Category.CategoryName</a></div>
+                            </div>
+                            <p class="post-describe">
+                                @item.BlogContent.Substring(0,item.BlogContent.Substring(0,160).LastIndexOf(" "))...
+                            </p>
+                            <a class="btn btn-primary" href="/Blog/BlogDetails/@item.BlogID">Devamını Oku</a>
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+            <div class="col-12 text-center">
+                <button class="normal-btn" id="load-more">Load more</button>
+            </div>
+        </div>
+    </div>
+</section><!--End posts-->

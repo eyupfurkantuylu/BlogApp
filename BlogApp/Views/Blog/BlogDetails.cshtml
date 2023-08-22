@@ -1,0 +1,185 @@
+@model IEnumerable<EntityLayer.Concrete.Blog>
+@{
+    ViewData["Title"] = "BlogDetails";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+
+}
+
+<section class="blog-detail blog-detail-sidebar">
+    <div class="container">
+        <div class="row justify-content-center">
+
+
+            <div class="col-12 col-lg-4">
+                <div class="blog-detail_sidebar">
+                    <div class="blog-sidebar_block sidebar-search">
+                        <input class="input-form" type="text" placeholder="Seach">
+                    </div>
+
+                    @await Html.PartialAsync("Partials/SubscribeMail")
+
+
+                    @* Kategorileri burada çağırıyoruz *@
+                    @await Component.InvokeAsync("CategoryList")
+
+                    @await Component.InvokeAsync("AuthorLastBlog")
+
+
+
+                    <div class="blog-sidebar_block sidebar-tags">
+                        <h5 class="sidebar-block-title">Search By Tags</h5><a href="index.html">Techno</a><a
+                            href="index.html">Phone</a><a href="index.html">Digital</a><a href="index.html">Media
+                            Social</a><a href="index.html">Marketing</a><a href="index.html">Content</a><a
+                            href="index.html">SEO</a>
+                    </div>
+
+                    <div class="blog-sidebar_block sidebar-recent-posts">
+                        <h5 class="sidebar-block-title">Son Eklenen Yazı</h5>
+                        <div class="posts">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-lg-12">
+                                    <div class="post-mini_block"><img
+                                            src="~/HTML/assets/images/blog_news/hot-mini-post-1.png" alt="post image">
+                                        <div class="post-detail">
+                                            <div class="post-credit">
+                                                <div class="post-tag"><a href="index.html">pet</a></div>
+                                            </div><a class="post-title title-small" href="blog_detail.html">How to View
+                                                Breast Cancer Survival Rates</a>
+                                            <div class="post-credit">
+                                                <div class="author">
+                                                    <h5 class="author-name">Lucas Norman</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-12">
+                                    <div class="post-mini_block"><img
+                                            src="~/HTML/assets/images/blog_news/hot-mini-post-2.png" alt="post image">
+                                        <div class="post-detail">
+                                            <div class="post-credit">
+                                                <div class="post-tag"><a href="index.html">pet</a></div>
+                                            </div><a class="post-title title-small" href="blog_detail.html">Ajax Stuns
+                                                Real Madrid, Ending Its Reign</a>
+                                            <div class="post-credit">
+                                                <div class="author">
+                                                    <h5 class="author-name">Lucas Norman</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            @foreach (var item in Model)
+            {
+                <div class="col-12 col-lg-8">
+                    <div class="post-header">
+                        <div class="posts blog-index">
+                            <div class="post-block post-classic">
+                                <div class="post-img"><img src="@item.BlogImage" alt="post image">
+                                </div>
+                                <div class="post-detail">
+                                    <a class="post-title regular" href="#">
+                                        @item.BlogTitle
+                                    </a>
+                                    <div class="post-credit">
+                                        <div class="author">
+                                            <a class="author-avatar" href="#">
+                                                <img src="~/HTML/assets/images/avatar/avatar-1.png" alt="auhtor">
+                                            </a>
+                                            <h5 class="author-name">Lucas Norman</h5>
+                                        </div>
+                                        <h5 class="upload-day">
+                                            @(((DateTime)item.BlogCreateDate).ToString("dd-MMM-yyyy"))
+                                        </h5>
+                                        <div class="post-tag">
+                                            <a href="index.html">
+                                                @item.CategoryID
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-block">
+                        <p class="blog-pragraph">
+                            @item.BlogContent
+                        </p>
+
+                    </div>
+                    <div class="post-footer">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="post-tags">
+                                    <a href="index.html">Camera</a>
+                                    <a href="index.html">PHOTOGRAHY</a><a href="index.html">TIPS</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 text-sm-right">
+                                <div class="post-share">
+                                    <p>Share: </p>
+                                    <div class="socials"><a href="https://www.facebook.com/"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://dribbble.com/"><i class="fab fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-quick-banner">
+                        <div class="row">
+                            <div class="col-12 col-md-6"><img class="img-fluid"
+                                    src="~/HTML/assets/images/blog_detail/blog-detail-banner-1.png" alt=""></div>
+                            <div class="col-12 col-md-6"><img class="img-fluid"
+                                    src="~/HTML/assets/images/blog_detail/blog-detail-banner-2.png" alt=""></div>
+                        </div>
+                    </div>
+                    <div class="post-author-detail">
+                        <div class="row no-gutters align-items-center">
+                            <div class="col-sm-5 col-md-4">
+                                <div class="author-avatar"><img
+                                        src="~/HTML/assets/images/blog_detail/post-author-avatar.png" alt="avatar"></div>
+                            </div>
+                            <div class="col-sm-7 col-md-8">
+                                <div class="author-info">
+                                    <h5>Shane Lynch</h5>
+                                    <p>Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                        velit esse cillum bore et dolore magna aliqua. </p>
+                                    <div class="author-social">
+                                        <a href="https://www.facebook.com/">
+                                            <i class="fab fa-facebook-f"></i></a>
+                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                        <a href="https://dribbble.com/"><i class="fab fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    @await Html.PartialAsync("Comment/AddCommentPartial")
+
+                    @await Component.InvokeAsync("CommentListByBlog",new {id = @ViewBag.i})
+
+                    @* @await Html.PartialAsync("Comment/GetCommentByBlogPartial") *@
+                </div>
+            }
+
+        </div>
+    </div>
+</section><!--End posts-->
+
+
+
+

@@ -1,0 +1,37 @@
+<h5 class="footer-link--title">E-Mail listemize kayıt olun. </h5>
+
+
+<div class="email-form">
+    <input class="input-form" type="text" placeholder="Enter Your Mail" id="emailText" name="email">
+    <input type="button" value="Subscribe" id="subscribeButton">
+</div>
+
+
+<div class="alert " id="result"> </div>
+
+<script>
+    $(document).ready(function () {
+        $("#subscribeButton").click(function () {
+            var email = $("#emailText").val(); // Email'i alın
+            console.log(email);
+            $.ajax({
+                type: "POST", // POST isteği
+                url: "/NewsLetter/SubscribeMail",
+                data:
+                {
+                    Mail: email
+                }, // Veriyi JSON olarak gönder
+                success: function (result) {
+                    // İstek başarılı ise
+                    $("#result").removeClass("alert-danger").addClass("alert-success").html("E-mail aboneliğiniz başarılı bir şekilde tamamlandı.");
+                },
+                error: function () {
+                    // İstek başarısız olursa
+                    $("#result").removeClass("alert-success").addClass("alert-danger").html("Hata oluştu.");
+                }
+            });
+
+
+        });
+    });
+</script>

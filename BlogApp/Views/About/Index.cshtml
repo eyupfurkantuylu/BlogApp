@@ -1,0 +1,114 @@
+@using EntityLayer.Concrete
+@model List<About>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_UILayout.cshtml";
+
+}
+
+
+@foreach (var item in Model)
+{
+    <section class="about-us">
+    <div class="container">
+        <h1 class="text-center about-title">Hakkımızda</h1>
+        <h5 class="text-center about-breadcrumb">Anasayfa<span>.</span>Hakkımızda</h5>
+
+
+        <div class="about-us_block">
+            <div class="about-us_img"><img class="img-fluid" src="@item.AboutImage1" alt="about us image"></div>
+            <p class="about-paragraph">
+                @item.AboutDetails1
+            </p>
+            <p class="about-paragraph">
+                @item.AboudDetails2
+            </p>
+        </div>
+        <div class="count-up_wrapper">
+            <div class="row">
+                <div class="col-6 col-md-3 text-center">
+                    <div class="count-up_block"><span class="count-number numscroller" data-min="1" data-max="1534"
+                            data-delay="5" data-increment="9">1534</span>
+                        <p>Yazı</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="count-up_block"><span class="count-number numscroller" data-min="1" data-max="1202"
+                            data-delay="5" data-increment="9">1202</span>
+                        <p>Kullanıcı</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="count-up_block"><span class="count-number numscroller" data-min="1" data-max="534"
+                            data-delay="5" data-increment="9">534</span>
+                        <p>Yorum</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <div class="count-up_block"><span class="count-number numscroller" data-min="1" data-max="1554"
+                            data-delay="5" data-increment="9">1554</span>
+                        <p>Takipçi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            @await Html.PartialAsync("~/Views/Shared/About/SocialMediaAbout.cshtml")
+        </div>
+    </div>
+    <div class="full-fluid">
+        <div class="our-team">
+            <div class="container">
+                <h1 class="text-center about-title">Our team</h1>
+                <p class="mx-auto text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et </p>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="team-block hvr-lighter"> <img src="~/HTML/assets/images/about_us/team-1.png"
+                                alt="our team">
+                            <div class="team-social"> <a href="https://www.facebook.com/"><i
+                                        class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/"><i
+                                        class="fab fa-instagram"></i></a><a href="https://twitter.com/"><i
+                                        class="fab fa-twitter"></i></a><a href="https://dribbble.com/"><i
+                                        class="fab fa-dribbble"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="team-block hvr-lighter"> <img src="~/HTML/assets/images/about_us/team-2.png"
+                                alt="our team">
+                            <div class="team-social"> <a href="https://www.facebook.com/"><i
+                                        class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/"><i
+                                        class="fab fa-instagram"></i></a><a href="https://twitter.com/"><i
+                                        class="fab fa-twitter"></i></a><a href="https://dribbble.com/"><i
+                                        class="fab fa-dribbble"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="team-block hvr-lighter"> <img src="~/HTML/assets/images/about_us/team-3.png"
+                                alt="our team">
+                            <div class="team-social"> <a href="https://www.facebook.com/"><i
+                                        class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/"><i
+                                        class="fab fa-instagram"></i></a><a href="https://twitter.com/"><i
+                                        class="fab fa-twitter"></i></a><a href="https://dribbble.com/"><i
+                                        class="fab fa-dribbble"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="team-block hvr-lighter"> <img src="~/HTML/assets/images/about_us/team-4.png"
+                                alt="our team">
+                            <div class="team-social"> <a href="https://www.facebook.com/"><i
+                                        class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/"><i
+                                        class="fab fa-instagram"></i></a><a href="https://twitter.com/"><i
+                                        class="fab fa-twitter"></i></a><a href="https://dribbble.com/"><i
+                                        class="fab fa-dribbble"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--End posts-->
+}
