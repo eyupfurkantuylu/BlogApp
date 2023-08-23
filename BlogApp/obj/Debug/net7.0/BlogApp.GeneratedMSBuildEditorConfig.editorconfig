@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL0F1dGhvck1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Author/AuthorNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL0F1dGhvck5hdmJhclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Author/AuthorProfile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aG9yL0F1dGhvclByb2ZpbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

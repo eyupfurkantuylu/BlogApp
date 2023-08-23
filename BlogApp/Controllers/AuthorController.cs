@@ -33,6 +33,14 @@ namespace BlogApp.Controllers
             return View();
         }
 
+        [AllowAnonymous]
+        public PartialViewResult AuthorNavbarPartial()
+        {
+            return PartialView();
+        }
+
+
+
 
     }
 }

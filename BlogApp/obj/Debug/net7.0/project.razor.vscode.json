@@ -24339,6 +24339,11 @@
       "FilePath": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Author/Test.cshtml",
       "TargetPath": "Views\\Author\\Test.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/eyuptuylu/Documents/GitHub/BlogApp/BlogApp/Views/Author/AuthorNavbarPartial.cshtml",
+      "TargetPath": "Views\\Author\\AuthorNavbarPartial.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
