@@ -17,10 +17,30 @@ namespace BusinessLayer.Concrete
             _aboutDal = aboutDal;
         }
 
+        public void AddT(About t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DeleteT(About t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateT(About t)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<About> GetList()
         {
             return _aboutDal.GetAll();
 
+        }
+
+        public About GetById(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

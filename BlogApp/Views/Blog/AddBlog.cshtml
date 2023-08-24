@@ -1,0 +1,64 @@
+@model EntityLayer.Concrete.Blog
+
+@{
+    ViewBag.Title = "Add Blog";
+    Layout = "~/Views/Shared/_AuthorLayout.cshtml";
+}
+
+
+@using (Html.BeginForm("AddBlog", "Blog", FormMethod.Post))
+{
+    <div class="col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Blog Ekleme</h3>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label class="form-label">Blog Title</label>
+                    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control", @type = "text", @name = "blogtitle", @placeholder = "Title.." })
+                    @Html.ValidationMessageFor(x => x.BlogTitle)
+
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Blog Image</label>
+                    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control", @type = "text", @name = "blogimage", @placeholder = "Blog Image URL.." })
+                    @Html.ValidationMessageFor(x => x.BlogImage )
+
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Blog Thumbnail Image</label>
+                    @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control", @type = "text", @name = "blogthumbnailimage", @placeholder = "Blog Thumbnail Image URL.." })
+                    @Html.ValidationMessageFor(x => x.BlogThumbnailImage)
+
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Blog Category</label>
+                    @Html.TextBoxFor(x => x.CategoryID, new { @class = "form-control", @type = "text", @name = "CategoryID", @placeholder = "Blog Category ID" })
+                    @Html.ValidationMessageFor(x => x.CategoryID)
+
+                </div>
+                
+                <div class="form-group">
+                    <label class="form-label">Blog Content</label>
+                    @Html.TextAreaFor(x => x.BlogContent, new { @class = "form-control", @name = "BlogContent", @placeholder = "Blog Content", @rows="6" })
+                    @Html.ValidationMessageFor(x => x.BlogContent)
+
+                </div>          
+      
+            </div>
+            <div class="card-footer">
+                <div class="form-group">
+                    <button class="btn text-white bg-green">Create</button>
+                </div>
+                <div class="form-group">
+                    <button class="btn text-white bg-red">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

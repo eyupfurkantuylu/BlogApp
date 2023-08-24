@@ -16,9 +16,7 @@
     <None Remove="ValidationRules\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstract\" />
     <Folder Include="Concrete\" />
-    <Folder Include="ValidationRules\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.7.1" />

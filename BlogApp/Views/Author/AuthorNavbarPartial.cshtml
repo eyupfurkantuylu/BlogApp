@@ -29,6 +29,8 @@
                 aria-expanded="true">Notification</a></li>
         <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#activity" aria-expanded="false">Activity</a>
         </li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#messages" aria-expanded="false">Mesajlar</a>
+                </li>
     </ul>
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane   active" id="notification" aria-expanded="true">
@@ -132,6 +134,9 @@
                 </li>
             </ul>
         </div>
+
+        @await Component.InvokeAsync("AuthorMessageNotification") 
+        
     </div>
 </div>
 
@@ -380,7 +385,6 @@
                         </ul>
                     </li>
 
-                    </li>
                     <li><a href="page-maps.html"><i class="icon-map"></i><span data-hover="Maps">Maps</span></a>
                     </li>
                 </ul>
