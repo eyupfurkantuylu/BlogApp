@@ -22,6 +22,13 @@ namespace BusinessLayer.Concrete
             return _blogDal.GetListWithCategory();
         }
 
+        public List<Blog> GetListWithCategoryByAuthor(int id)
+        {
+            return _blogDal.GetListWithCategoryByAuthor(id);
+        }
+        
+        
+        
         public Blog GetById(int id)
         {
             return _blogDal.GetByID(id);
@@ -38,12 +45,12 @@ namespace BusinessLayer.Concrete
 
         public void DeleteT(Blog t)
         {
-            throw new NotImplementedException();
+            _blogDal.Delete(t);
         }
 
         public void UpdateT(Blog t)
         {
-            throw new NotImplementedException();
+            _blogDal.Update(t);
         }
 
         public List<Blog> GetList()

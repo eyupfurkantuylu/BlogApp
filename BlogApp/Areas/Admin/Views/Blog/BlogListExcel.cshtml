@@ -1,0 +1,14 @@
+@{
+    ViewBag.Title = "Blog List Excel";
+    ViewBag.ControllerName = "Blog";
+    ViewBag.MethodName = "BlogListExcel";
+    ViewBag.ActionButtonTitle = "GO BACK";
+    ViewBag.ActionUrl = "#";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Blog List Excel</h2>
+
+<br>
+
+<a class="btn btn-primary" href="/Admin/Blog/ExportStaticExcelBlogList"> Download </a>

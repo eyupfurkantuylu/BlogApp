@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "BusinessLa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLayer", "CoreLayer\CoreLayer.csproj", "{8F4F8388-7CE8-41AB-9A34-20988181FC71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApi", "BlogApi\BlogApi.csproj", "{9F114CF8-09AD-4497-BF97-B134638B3560}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8F4F8388-7CE8-41AB-9A34-20988181FC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F4F8388-7CE8-41AB-9A34-20988181FC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F4F8388-7CE8-41AB-9A34-20988181FC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F114CF8-09AD-4497-BF97-B134638B3560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F114CF8-09AD-4497-BF97-B134638B3560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F114CF8-09AD-4497-BF97-B134638B3560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F114CF8-09AD-4497-BF97-B134638B3560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

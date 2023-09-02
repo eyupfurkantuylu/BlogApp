@@ -1,44 +1,27 @@
+@using EntityLayer.Concrete
+@model List<Notification>
+
         <div role="tabpanel" class="tab-pane   active" id="notification" aria-expanded="true">
             <ul class="list-unstyled feeds_widget">
+                
+                @foreach (var item in Model)
+                {
+                    <li>
+                        <div class="feeds-left"><i class="@item.NotificationTypeSymbol @item.NotificationColor"></i></div>
+                        <div class="feeds-body">
+                            <h4 class="title @item.NotificationColor">@item.NotificationType </h4>
+                            <small>@item.NotificationDetails</small>
+                            <small class="text-muted">@item.NotificationDate</small>
+                        </div>
+                    </li>
+                }
+                
                 <li>
-                    <div class="feeds-left"><i class="fa fa-check"></i></div>
-                    <div class="feeds-body">
-                        <h4 class="title text-danger">Notification Kısmı </h4>
-                        <small>WE have fix all Design bug with Responsive</small>
-                        <small class="text-muted">11:05</small>
-                    </div>
+                    <a href="/Notification/AllNotification">All Notifications</a>
                 </li>
-                <li>
-                    <div class="feeds-left"><i class="fa fa-user"></i></div>
-                    <div class="feeds-body">
-                        <h4 class="title">New User</h4>
-                        <small>I feel great! Thanks team</small>
-                        <small class="text-muted">10:45</small>
-                    </div>
-                </li>
-                <li>
-                    <div class="feeds-left"><i class="fa fa-thumbs-o-up"></i></div>
-                    <div class="feeds-body">
-                        <h4 class="title">7 New Feedback</h4>
-                        <small>It will give a smart finishing to your site</small>
-                        <small class="text-muted">Today</small>
-                    </div>
-                </li>
-                <li>
-                    <div class="feeds-left"><i class="fa fa-question-circle"></i></div>
-                    <div class="feeds-body">
-                        <h4 class="title text-warning">Server Warning</h4>
-                        <small>Your connection is not private</small>
-                        <small class="text-muted">10:50</small>
-                    </div>
-                </li>
-                <li>
-                    <div class="feeds-left"><i class="fa fa-shopping-cart"></i></div>
-                    <div class="feeds-body">
-                        <h4 class="title">7 New Orders</h4>
-                        <small>You received a new oder from Tina.</small>
-                        <small class="text-muted">11:35</small>
-                    </div>
-                </li>
+                
             </ul>
+            
+            
+            
         </div>

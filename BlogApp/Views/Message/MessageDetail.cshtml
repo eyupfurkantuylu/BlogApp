@@ -1,0 +1,33 @@
+@model EntityLayer.Concrete.Message2
+
+@{
+    ViewBag.Title = "Message Detail";
+    Layout = "~/Views/Shared/_AuthorLayout.cshtml";
+}
+
+<h2>@Model.Subject</h2>
+
+<div class="card-body detail">
+    <div class="detail-header">
+        <div class="media">
+            <div class="float-left">
+                <div class="mr-3">
+                    <img src="/AuthorImageFiles/Default.png" alt="" width="30px">
+                </div>
+            </div>
+            <div class="media-body">
+                <p class="mb-0">
+                    <strong class="text-muted mr-1">From:</strong><a href="#">@Model.SenderUser.AuthorMail</a><span class="text-muted text-sm float-right">@Model.MessageDate</span>
+                </p>
+                <p class="mb-0"><strong class="text-muted mr-1">Me:</strong>@Model.ReceiverUser.AuthorName <small class="float-right"><i class="fe fe-paperclip mr-1"></i>(2 files, 89.2 KB)</small></p>
+            </div>
+        </div>
+    </div>
+    <div class="mail-cnt">
+        <hr class="my-3">
+        @Model.MessageDetails
+        <hr>
+        <a class="btn btn-default" href="app-compose.html">Reply</a>
+        <a class="btn btn-default" href="app-compose.html">Forward</a>
+    </div>
+</div>

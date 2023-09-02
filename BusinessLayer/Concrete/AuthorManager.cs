@@ -17,9 +17,34 @@ namespace BusinessLayer.Concrete
             _authordal = authordal;
         }
 
-        public void AddAuthor(Author author)
+        public void AddT(Author t)
         {
-            _authordal.Insert(author);
+            _authordal.Insert(t);
+        }
+
+        public void DeleteT(Author t)
+        {
+            _authordal.Delete(t);
+        }
+
+        public void UpdateT(Author t)
+        {
+            _authordal.Update(t);
+        }
+
+        public List<Author> GetList()
+        {
+            return _authordal.GetAll();
+        }
+
+        public Author GetById(int id)
+        {
+            return _authordal.GetByID(id);
+        }
+
+        public List<Author> GetAuthorById(int id)
+        {
+            return _authordal.GetAll(x => x.AuthorID == id);
         }
     }
 }

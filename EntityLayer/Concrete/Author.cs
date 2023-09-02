@@ -34,6 +34,8 @@ namespace EntityLayer.Concrete
 		public string? AuthorResume { get; set; }
 		public DateTime AuthorRegistrationDate { get; set; }
 		public List<Blog>? Blogs { get; set; }
+		public virtual ICollection<Message2> AuthorSender { get; set; }
+		public virtual ICollection<Message2> AuthorReceiver { get; set; }
 
 
 	}

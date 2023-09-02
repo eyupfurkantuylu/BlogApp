@@ -33,7 +33,8 @@ namespace BlogApp.Controllers
                 author.AuthorAbout = "deneme";
                 author.AuthorStatus = true;
                 author.AuthorRegistrationDate = DateTime.Now;
-                am.AddAuthor(author);
+                author.AuthorImage = "/AuthorImageFiles/default.png";
+                am.AddT(author);
 
                 return RedirectToAction("Index", "Blog");
             }

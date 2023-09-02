@@ -1,0 +1,34 @@
+@using BlogApp.Controllers
+
+@model List<Class1>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>title</h2>
+
+
+<table class="table table-bordered">
+    
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Delete</th>
+        <th>Edit</th>
+    </tr>
+    
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td> <a href="/EmployeeTest/DeleteEmployee/@item.ID" class="btn btn-danger"> Delete </a> </td>
+            <td> <a href="/EmployeeTest/EditEmployee/@item.ID" class="btn btn-warning"> Edit </a> </td>
+        </tr>
+    }
+    
+</table>
+
+<a href="/EmployeeTest/AddEmployee/" class="btn btn-outline-primary"> Yeni Çalışan Girişi </a>

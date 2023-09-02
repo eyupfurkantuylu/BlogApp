@@ -1,0 +1,192 @@
+@model BlogApp.Models.AddProfileImage
+
+@{
+    ViewBag.Title = "Add Author";
+    Layout = "~/Views/Shared/_AuthorLayout.cshtml";
+}
+
+<link rel="stylesheet" href="~/authorpanel/assets/plugins/dropify/css/dropify.min.css">
+
+<form class="form-group" method="post" enctype="multipart/form-data">
+    <div class="col-md-12 col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Add Author</h3>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label class="form-label">Your Name</label>
+                    @Html.TextBoxFor(x => x.AuthorName, new { @class = "form-control", @type = "text", @placeholder = "Your name.." })
+                    @Html.ValidationMessageFor(x => x.AuthorName)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">About yourself</label>
+                    @Html.TextBoxFor(x => x.AuthorAbout, new { @class = "form-control", @type = "text", @placeholder = "About yourself.." })
+                    @Html.ValidationMessageFor(x => x.AuthorAbout)
+                </div>
+                @* TODO: FOTOĞRAFI PC DEN SEÇTİR *@
+                <div class="form-group">
+                    <label class="form-label">Your Image</label>
+                    @Html.TextBoxFor(x => x.AuthorImage, new { @class = "form-control", @type = "text", @placeholder = "Your image.." })
+                    @Html.ValidationMessageFor(x => x.AuthorImage)
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Your Image</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="dropify-wrapper">
+                            <div class="dropify-message">
+                                <span class="file-icon"></span>
+                                <p>Drag and drop a file here or click</p>
+                                <p class="dropify-error">Ooops, something wrong appended.</p>
+                            </div>
+                            <div class="dropify-loader"></div>
+                            <div class="dropify-errors-container">
+                                <ul></ul>
+                            </div>
+                            <input type="file" class="dropify" name="AuthorImage">
+                            <button type="button" class="dropify-clear">Remove</button>
+                            <div class="dropify-preview">
+                                <span class="dropify-render"></span>
+                                <div class="dropify-infos">
+                                    <div class="dropify-infos-inner">
+                                        <p class="dropify-filename">
+                                            <span class="file-icon"></span> <span class="dropify-filename-inner"></span>
+                                        </p>
+                                        <p class="dropify-infos-message">Drag and drop or click to replace</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="form-label">Your Email Address</label>
+                    @Html.TextBoxFor(x => x.AuthorMail, new { @class = "form-control", @type = "text", @placeholder = "Your name.." })
+                    @Html.ValidationMessageFor(x => x.AuthorMail)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Password </label>
+                    @Html.PasswordFor(x => x.AuthorPassword, new { @class = "form-control", @type = "password", @placeholder = "Your password.." })
+                    @Html.ValidationMessageFor(x => x.AuthorPassword)
+                </div>
+
+                @* TODO: TARİH SEÇİM ARACI KULLANILACAK *@
+                <div class="form-group">
+                    <label class="form-label">Your Birth Date</label>
+                    @Html.TextBoxFor(x => x.AuthorBirthDate, new { @class = "form-control", @type = "text", @placeholder = "Your birth date.." })
+                    @Html.ValidationMessageFor(x => x.AuthorBirthDate)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Native Language</label>
+                    @Html.TextBoxFor(x => x.AuthorLanguages, new { @class = "form-control", @type = "text", @placeholder = "Your native language.." })
+                    @Html.ValidationMessageFor(x => x.AuthorLanguages)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Contact Email (Public)</label>
+                    @Html.TextBoxFor(x => x.AuthorContactEmail, new { @class = "form-control", @type = "text", @placeholder = "Your public content email.." })
+                    @Html.ValidationMessageFor(x => x.AuthorContactEmail)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Contact Phone Number (Public)</label>
+                    @Html.TextBoxFor(x => x.AuthorContactPhoneNumber, new { @class = "form-control", @type = "text", @placeholder = "Your public contact phone number.." })
+                    @Html.ValidationMessageFor(x => x.AuthorContactPhoneNumber)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Facebook Profile Url (Full URL)</label>
+                    @Html.TextBoxFor(x => x.AuthorFacebookProfile, new { @class = "form-control", @type = "text", @placeholder = "Your facebook.." })
+                    @Html.ValidationMessageFor(x => x.AuthorFacebookProfile)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your X (Twitter) Profile Url (Full URL)</label>
+                    @Html.TextBoxFor(x => x.AuthorTwitterProfile, new { @class = "form-control", @type = "text", @placeholder = "Your X profile.." })
+                    @Html.ValidationMessageFor(x => x.AuthorTwitterProfile)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your LinkedIn Profile Url (Full URL)</label>
+                    @Html.TextBoxFor(x => x.AuthorLinkedInProfile, new { @class = "form-control", @type = "text", @placeholder = "Your LinkedIn.." })
+                    @Html.ValidationMessageFor(x => x.AuthorLinkedInProfile)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Country</label>
+                    @Html.TextBoxFor(x => x.AuthorCountry, new { @class = "form-control", @type = "text", @placeholder = "Your nationality.." })
+                    @Html.ValidationMessageFor(x => x.AuthorCountry)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your City</label>
+                    @Html.TextBoxFor(x => x.AuthorCity, new { @class = "form-control", @type = "text", @placeholder = "Your city.." })
+                    @Html.ValidationMessageFor(x => x.AuthorCity)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Neighborhood</label>
+                    @Html.TextBoxFor(x => x.AuthorNeighborhood, new { @class = "form-control", @type = "text", @placeholder = "Your Neighborhood.." })
+                    @Html.ValidationMessageFor(x => x.AuthorNeighborhood)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Street</label>
+                    @Html.TextBoxFor(x => x.AuthorStreet, new { @class = "form-control", @type = "text", @placeholder = "Your street.." })
+                    @Html.ValidationMessageFor(x => x.AuthorStreet)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Zip Code</label>
+                    @Html.TextBoxFor(x => x.AuthorZipCode, new { @class = "form-control", @type = "text", @placeholder = "Your zip code.." })
+                    @Html.ValidationMessageFor(x => x.AuthorZipCode)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Phone Number (Hidden) </label>
+                    @Html.TextBoxFor(x => x.AuthorZipCode, new { @class = "form-control", @type = "text", @placeholder = "Your phone number (this is not public).." })
+                    @Html.ValidationMessageFor(x => x.AuthorZipCode)
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Your Website </label>
+                    @Html.TextBoxFor(x => x.PersonalWebsite, new { @class = "form-control", @type = "text", @placeholder = "Your website.." })
+                    @Html.ValidationMessageFor(x => x.PersonalWebsite)
+                </div>
+
+                @* TODO: DOSYA SEÇTİRİLEBİLİR *@
+                <div class="form-group">
+                    <label class="form-label">Your Resume Link (CV) </label>
+                    @Html.TextBoxFor(x => x.AuthorResume, new { @class = "form-control", @type = "text", @placeholder = "Your cv.." })
+                    @Html.ValidationMessageFor(x => x.AuthorResume)
+                </div>
+
+                <div class="form-group">
+                    @* @Html.HiddenFor(x => x.AuthorID, new { @class = "form-control" }) *@
+                    @* @Html.HiddenFor(x => x.AuthorStatus, new { @class = "form-control" }) *@
+                    @* @Html.HiddenFor(x => x.AuthorEmailConfirmed, new { @class = "form-control" }) *@
+                    @* @Html.HiddenFor(x => x.AuthorLastLogin, new { @class = "form-control" }) *@
+                    @* @Html.HiddenFor(x => x.AuthorLastLoginIP, new { @class = "form-control" }) *@
+                    @* @Html.HiddenFor(x => x.AuthorRegistrationDate, new { @class = "form-control" }) *@
+
+                </div>
+
+            </div>
+            <div class="card-footer">
+                <div class="form-group">
+                    <button class="btn text-white bg-green">Create</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</form>

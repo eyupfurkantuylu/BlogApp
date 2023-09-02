@@ -1,11 +1,29 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using BlogApi.DataAccessLayer;
+using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Mvc.Razor;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<Context>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
+
+
 builder.Services.AddControllersWithViews();
+
+
+// builder.Services.Configure<RazorViewEngineOptions>(options =>
+// {
+//     options.AreaViewLocationFormats.Clear();
+//     options.AreaViewLocationFormats.Add("/MyAreas/{2}/Views/{1}/{0}.cshtml");
+//     options.AreaViewLocationFormats.Add("/MyAreas/{2}/Views/Shared/{0}.cshtml");
+//     options.AreaViewLocationFormats.Add("/Views/Shared/{0}.cshtml");
+// });
+
 
 //Login için ekledik
 
@@ -13,20 +31,20 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddMvc(config =>
 {
     var policy = new AuthorizationPolicyBuilder()
-                    .RequireAuthenticatedUser()
-                    .Build();
+        .RequireAuthenticatedUser()
+        .Build();
     config.Filters.Add(new AuthorizeFilter(policy));
 });
+
+
+
 
 builder.Services.AddMvc();
 //Authentication varsa cookie'ye ekle. Yoksa Login sayfasına yönlendir
 builder.Services.AddAuthentication(
-    CookieAuthenticationDefaults.AuthenticationScheme)
+        CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(
-        x =>
-        {
-            x.LoginPath = "/Login/Index";
-        }
+        x => { x.LoginPath = "/Login/Index"; }
     );
 
 
@@ -53,8 +71,12 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "Admin",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.Run();
 
+app.Run();

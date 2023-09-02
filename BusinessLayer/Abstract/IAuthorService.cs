@@ -6,8 +6,8 @@ using EntityLayer.Concrete;
 
 namespace BusinessLayer.Abstract
 {
-    public interface IAuthorService
+    public interface IAuthorService:IGenericService<Author>
     {
-        void AddAuthor(Author author);
+        List<Author> GetAuthorById(int id);
     }
 }

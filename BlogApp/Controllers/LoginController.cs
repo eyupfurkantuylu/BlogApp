@@ -40,7 +40,7 @@ namespace BlogApp.Controllers
 
                 await HttpContext.SignInAsync(principal);
 
-                return RedirectToAction("Index", "Author");
+                return RedirectToAction("Index", "Dashboard");
             }
             else
             {
